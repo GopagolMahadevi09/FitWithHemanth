@@ -1,10 +1,10 @@
-# Fitzen Gym FrontEnd Template
+# FitCoach Gym FrontEnd Template
 
-This is a Front-End template for a Gym Website called Fitzen. The main Idea from creating this project is to learn how to use React with Hooks and to get familiar with Gsap & React Player. This is a multy page website means that each headline in the Navebar leads to a new redirected paths.
+This is a Front-End template for a Gym Website called FitCoach. The main Idea from creating this project is to learn how to use React with Hooks and to get familiar with Gsap & React Player. This is a multy page website means that each headline in the Navebar leads to a new redirected paths.
 
 ## Website link
 
-[Fitzen.io](https://react-fitzen-gym.stackblitz.io)
+[FitCoach.io](https://react-FitCoach-gym.stackblitz.io)
 
 ## Technologies used to build this project
 
@@ -26,7 +26,7 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../fitzen
+$ cd ../FitCoach
 $ npm install
 $ npm start
 ```

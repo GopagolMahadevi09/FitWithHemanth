@@ -1,0 +1,15 @@
+.container{
+  background-color: #fff;
+  padding:3rem calc((100vw - 1350px) / 2);
+  overflow-x: hidden;
+}
+
+.title h2{
+  color: #000;
+  margin: auto;
+}
+
+.carousel-indicators,
+.carousel-indicators li {
+  display: none !important;
+}

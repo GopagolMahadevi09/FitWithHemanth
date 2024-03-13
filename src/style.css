@@ -31,3 +31,22 @@ body
 .carousel-indicators li {
   display: none !important;
 }
+
+
+::-webkit-scrollbar {
+  appearance: none;
+  background: transparent;
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb
+{
+background: #0288519e;
+  width: 7px;
+  border-radius: 5px;
+}

@@ -139,6 +139,7 @@ li {
   .membership--perk--desc {
     margin-top: 3rem;
   }
+  
 }
 
 @media screen and (max-width: 950px) {
@@ -157,7 +158,20 @@ li {
   }
 }
 @media screen and (max-width: 450px) {
-  .membership--card {
-    width: 80%;
-  }
+  .membership--wrap {
+      flex-direction: column;
+    }
+  
+    .membership--card {
+      margin: 2rem auto;
+      min-height: 380px;
+    }
+  
+    .membership--card>div {
+      padding: 1rem 0;
+    }
+  
+    .membership--perk--desc {
+      margin-top: 1rem;
+    }
 }

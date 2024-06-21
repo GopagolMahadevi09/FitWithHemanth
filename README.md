@@ -4,7 +4,7 @@ This is a Front-End template for a Gym Website called FitWithFitnessBeast. The m
 
 ## Website link
 
-[FitWithFitnessBeast.io](https://gopagolmahadevi09.github.io/FitWithHemanth/)
+[FitWithFitnessBeast.io](http://localhost:3000)
 
 ## Technologies used to build this project
 

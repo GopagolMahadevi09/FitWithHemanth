@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FitWithHemanth/static/css/main.b495f76b.css",
+    "main.js": "/FitWithHemanth/static/js/main.aa6e2f6a.js",
+    "static/media/hGroup.JPG": "/FitWithHemanth/static/media/hGroup.0551b2d4da472ceb4502.JPG",
+    "static/media/hemanth.jpg": "/FitWithHemanth/static/media/hemanth.b8b9239ace2000d54dcb.jpg",
+    "static/media/withClient1.JPEG": "/FitWithHemanth/static/media/withClient1.7b0165d0b8915a055c62.JPEG",
+    "static/media/hemanth-profile.jpeg": "/FitWithHemanth/static/media/hemanth-profile.6acb281938f0afd4334b.jpeg",
+    "static/media/client-5.jpg": "/FitWithHemanth/static/media/client-5.67130cdce6ae3c6cdb27.jpg",
+    "static/media/client-1.jpg": "/FitWithHemanth/static/media/client-1.2402840ea2ce4021e780.jpg",
+    "static/media/client-3.jpg": "/FitWithHemanth/static/media/client-3.e24ec266c13b98c716e9.jpg",
+    "static/media/client-2.jpg": "/FitWithHemanth/static/media/client-2.5af406e9d4db00616a26.jpg",
+    "static/media/trans1.jpg": "/FitWithHemanth/static/media/trans1.c0509f31f2ce41af3584.jpg",
+    "static/media/client-4.jpg": "/FitWithHemanth/static/media/client-4.136eddf67fcb89799314.jpg",
+    "static/media/trainer.jpg": "/FitWithHemanth/static/media/trainer.41a8764d1fddd8f11fc8.jpg",
+    "index.html": "/FitWithHemanth/index.html",
+    "main.b495f76b.css.map": "/FitWithHemanth/static/css/main.b495f76b.css.map",
+    "main.aa6e2f6a.js.map": "/FitWithHemanth/static/js/main.aa6e2f6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b495f76b.css",
+    "static/js/main.aa6e2f6a.js"
+  ]
+}

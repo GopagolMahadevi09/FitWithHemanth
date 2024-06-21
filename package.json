@@ -1,7 +1,7 @@
 {
-  "name": "fitcoach",
+  "name": "fitnessbeast",
   "homepage" : "https://GopagolMahadevi09.github.io/FitWithHemanth",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "gsap": "^3.7.1",

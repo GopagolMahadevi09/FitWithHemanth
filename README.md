@@ -1,10 +1,10 @@
-# FitCoach Gym FrontEnd Template
+# FitWithFitnessBeast FrontEnd Template
 
-This is a Front-End template for a Gym Website called FitCoach. The main Idea from creating this project is to learn how to use React with Hooks and to get familiar with Gsap & React Player. This is a multy page website means that each headline in the Navebar leads to a new redirected paths.
+This is a Front-End template for a Gym Website called FitWithFitnessBeast. The main Idea from creating this project is to learn how to use React with Hooks and to get familiar with Gsap & React Player. This is a multy page website means that each headline in the Navebar leads to a new redirected paths.
 
 ## Website link
 
-[FitCoach.io](https://react-FitCoach-gym.stackblitz.io)
+[FitWithFitnessBeast.io](https://gopagolmahadevi09.github.io/FitWithHemanth/)
 
 ## Technologies used to build this project
 
@@ -38,8 +38,6 @@ When contributing to this repository, please first discuss the change you wish t
 
 >Note that all Pull requests are welcome
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
 
-[Created on StackBlitz ⚡️] with :heart:
+

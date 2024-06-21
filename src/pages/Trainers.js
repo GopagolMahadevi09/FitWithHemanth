@@ -3,6 +3,9 @@ import {TweenMax, gsap} from "gsap";
 import { Button } from '../components/Button';
 import "./Trainers.css"
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import trainer from '../assets/images/trainer.jpg'
+import join1 from '../assets/images/withClient1.JPEG'
+import trans1 from '../assets/images/trans1.jpg'
 gsap.registerPlugin(ScrollTrigger);
 export default function Trainers() {
   let cor=useRef(null);
@@ -71,7 +74,7 @@ useEffect(() => {
 
   return (
     <>
-      <div className="faq--header"><h1>Trainer</h1></div>
+      <div className="faq--header1"><h1>Trainer</h1></div>
        {/*<h1 className="hi">Trainers</h1>*/}
         <div className="fet--contain">
           <div className='title'>
@@ -83,7 +86,7 @@ useEffect(() => {
             </div>
         </div>
         <div className="welcome">
-          <img src="https://aajatexas.org/wp-content/uploads/2019/05/470333845-56a2b67c5f9b58b7d0cdadd3.jpg" alt="FitCoach gym" ref={el=> {cor=el}}/>
+          <img src={trainer} alt="FitCoach gym" ref={el=> {cor=el}}/>
           <div className="welcome--headline" ref={el=> {corri=el}}>
           <h3>Welcome to Personal Training by Hemanth</h3>
           <p>At FitCoach Personal Trainer, we're committed to treating each member as an individual, crafting personalized programs suited to their unique needs and goals. Our highly qualified trainers specialize in various areas of fitness, ensuring you receive expert guidance and support tailored to accelerate your progress safely and efficiently.</p>
@@ -95,7 +98,7 @@ useEffect(() => {
            <div className='underline'></div>
           <div className="why--container">
           <div className="why--container--wrapper" ref={el=> {newv.current[0]=el}}>
-          <img className='side-images' src="https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=904&q=80" alt="FitCoach gym"/>
+          <img className='side-images' src={join1} alt="FitCoach gym"/>
           <div className="welcome--headline">
           <h3>Our goal? Achieving yours</h3>
           <p>With Personal Training, you get individual attention from an expert who will draw up a training plan customized to get you results. You will have an expert by your side all the way who is certified and equipped with the best tools and knowledge to help you get accelerated results.</p>
@@ -103,7 +106,7 @@ useEffect(() => {
            </div>
            </div>
            <div className="why--container--wrapper" ref={el=> {newv.current[1]=el}}>
-            <img className='side-images' src="https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="choose personal trainer by FitCoach"/>
+            <img className='side-images' src={trans1} alt="choose personal trainer by FitCoach"/>
             <div className="welcome--headline">
             <h3>Benefits</h3>
             <p>Results made personal! Get the results you want with professional, passionate and highly qualified experts who take your goals and aspirations personally.</p>

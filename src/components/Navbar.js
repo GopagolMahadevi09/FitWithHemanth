@@ -29,7 +29,7 @@ export default function Navbar() {
           </clipPath>
           </defs>
             </svg>
-            <h2>FitCoach</h2>
+            <h2>FitnessBeast</h2>
             {/* <h2>Fit2Fat</h2>
             <h2>Fit2Fat</h2> */}
 

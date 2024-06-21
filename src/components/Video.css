@@ -13,3 +13,8 @@
 .carousel-indicators li {
   display: none !important;
 }
+
+.h-500
+{
+  height: 500px;
+}

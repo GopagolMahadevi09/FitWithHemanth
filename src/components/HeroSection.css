@@ -1,5 +1,5 @@
 .hero-container{
-  background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background: url('../assets/images/hemanth.jpg');
   object-fit: contain;
   background-size: cover;
   /* color:#fff; */
@@ -64,11 +64,26 @@
 .hero-btns{
   margin-top: 35px;
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 450px) {
   
   .hero--header{
     /*border:1px solid red;*/
     margin-left:8rem;
+  }
+
+  .hero-container
+  {
+    background: url('../assets/images/hemanth.jpg');
+  object-fit: contain;
+  background-size: cover;
+  /* color:#fff; */
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  margin-top:80px;
+  height: 100%;
+  width: 100%;
   }
 }
 @media screen and (max-width:950px){

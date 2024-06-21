@@ -1,7 +1,7 @@
 {
   "name": "fitcoach",
-  "version": "1.0.0",
-  "private": true,
+  "homepage" : "https://GopagolMahadevi09.github.io/FitWithHemanth",
+  "version": "1.1.0",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "gsap": "^3.7.1",
@@ -12,9 +12,11 @@
     "react-router-dom": "^5.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

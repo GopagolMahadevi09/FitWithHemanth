@@ -55,13 +55,13 @@ export default function Membership() {
               <h3 style={{ marginTop: '15px' }}>1-ON-1 Personal Training</h3>
             </div>
 
-            <div className="membership--perk">
+            {/* <div className="membership--perk">
               <h3>
                 <span>
                   <sup>$</sup>18/<small>month</small>
                 </span>
               </h3>
-            </div>
+            </div> */}
             {/* <div className="membership--perk--desc">
               <ul>
                 <li>- Single Club Access</li>
@@ -111,13 +111,13 @@ export default function Membership() {
               <h3>2-ON-1 Buddy Training</h3>
             </div>
 
-            <div className="membership--perk">
+            {/* <div className="membership--perk">
               <h3>
                 <span>
                   <sup>$</sup>28/<small>month</small>
                 </span>
               </h3>
-            </div>
+            </div> */}
             {/* <div className="membership--perk--desc">
               <ul>
                 <li>- Begginer Amenites Included</li>
@@ -164,13 +164,13 @@ export default function Membership() {
               <h3>Group Session Training</h3>
             </div>
 
-            <div className="membership--perk">
+            {/* <div className="membership--perk">
               <h3>
                 <span>
                   <sup>$</sup>48/<small>month</small>
                 </span>
               </h3>
-            </div>
+            </div> */}
             {/* <div className="membership--perk--desc">
               <ul>
                 <li>- All Pro Amenites Included</li>

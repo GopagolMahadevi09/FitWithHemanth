@@ -9,6 +9,7 @@ import Features from ".//pages/Features"
 import Plans from "./pages/Plans"
 import FAQs from "./pages/FAQs"
 import Footer from "./components/Footer"
+import HeroSection from "./components/HeroSection";
 
 export default function App() {
   return (
@@ -16,14 +17,13 @@ export default function App() {
       <Router>
         <ScrollTop/>
         <Navbar/>
+        <HeroSection/>
         <Switch>
             <Route path="/" exact component= {Home} />
             <Route path="/Plans" exact component= {Plans} />
-          <Route path="/Features" exact component={Features} />
-          
+            <Route path="/Features" exact component={Features} />
             <Route path="/FAQs" exact component= {FAQs} />
             <Route path="/Trainers" exact component= {Trainers} />
-
           </Switch>
 
           <Footer/>

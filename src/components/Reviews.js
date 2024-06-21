@@ -2,6 +2,11 @@ import React, {useState, useEffect} from "react";
 import "./Reviews.css"
 import {reviews} from "../data"
 import {Button} from './Button.js'
+import client1 from '../assets/images/client-1.jpg'
+import client2 from '../assets/images/client-2.jpg'
+import client3 from '../assets/images/client-3.jpg'
+import client4 from '../assets/images/client-4.jpg'
+import client5 from '../assets/images/client-5.jpg'
 
 export default function Reviews() {
   
@@ -37,9 +42,9 @@ export default function Reviews() {
           <div className="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="https://firebasestorage.googleapis.com/v0/b/scoot-production-a901c.appspot.com/o/exly%2Fe%2Fpng%3Bbaso9mG4KSB?alt=media&token=f560cba8-836e-49bb-84ee-efb19de38313" class="card-img-top" alt="..."></img>
+                <img src={client1} class="card-img-top" alt="..."></img>
                 <div class="card-body">
-                  <h5 class="card-title">Clien name -0</h5>
+                  <h5 class="card-title">Client Name-0</h5>
                   <p class="card-text">I have been following videos and diet plan of Hemanth for 4 weeks now, and I am amazed at how much I have learnt. He has a unique way of teaching with simple techniques that are easy to learn. His eccentric nature and gentle guidance have taught me so much.
                   </p>
                 </div>
@@ -47,7 +52,7 @@ export default function Reviews() {
             </div>
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="https://firebasestorage.googleapis.com/v0/b/scoot-production-a901c.appspot.com/o/exly%2Fe%2Fpng%3BbasRtM1yoEH?alt=media&token=c7899b3f-a133-4dc8-8ef6-d97a900ef427" class="card-img-top" alt="..."></img>
+                <img src={client2} class="card-img-top" alt="..."></img>
                 <div class="card-body">
                   <h5 class="card-title">Client Name-1</h5>
                   <p class="card-text">I have been following videos and diet plan of hemanth for 4 weeks now, and I am amazed at how much I have learnt. He has a unique way of teaching with simple techniques that are easy to learn. His eccentric nature and gentle guidance have taught me so much.
@@ -57,15 +62,34 @@ export default function Reviews() {
             </div>
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="https://firebasestorage.googleapis.com/v0/b/scoot-production-a901c.appspot.com/o/exly%2Fe%2Fpng%3Bbasw4N9WWGN?alt=media&token=6ff9ae4d-c1c2-4409-a826-228e9991ba0d" class="card-img-top" alt="..."></img>
+                <img src={client3} class="card-img-top" alt="..."></img>
                 <div class="card-body">
-                  <h5 class="card-title">Client name-1</h5>
+                  <h5 class="card-title">Client name-2</h5>
                   <p class="card-text">I have been following videos and diet plan of Hemanth for 4 weeks now, and I am amazed at how much I have learnt. He has a unique way of teaching with simple techniques that are easy to learn. His eccentric nature and gentle guidance have taught me so much.
                   </p>
                 </div>
               </div>
             </div>
-
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src={client4} class="card-img-top" alt="..."></img>
+                <div class="card-body">
+                  <h5 class="card-title">Client name-4</h5>
+                  <p class="card-text">I have been following videos and diet plan of Hemanth for 4 weeks now, and I am amazed at how much I have learnt. He has a unique way of teaching with simple techniques that are easy to learn. His eccentric nature and gentle guidance have taught me so much.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src={client5} class="card-img-top" alt="..."></img>
+                <div class="card-body">
+                  <h5 class="card-title">Client name-5</h5>
+                  <p class="card-text">I have been following videos and diet plan of Hemanth for 4 weeks now, and I am amazed at how much I have learnt. He has a unique way of teaching with simple techniques that are easy to learn. His eccentric nature and gentle guidance have taught me so much.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

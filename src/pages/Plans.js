@@ -4,6 +4,7 @@ import { TweenMax, gsap } from 'gsap';
 import Membership from '../components/Membership';
 import './Plans.css';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import join1 from '../assets/images/withClient1.JPEG'
 gsap.registerPlugin(ScrollTrigger);
 export default function Plans() {
   let newv = useRef([]);
@@ -157,7 +158,7 @@ export default function Plans() {
       <div className="join-us">
         <div className="joinus--container">
           <img
-            src="https://sm.askmen.com/t/askmen_in/photo/default/askmen-coolestgym-th_fmq6.h720.jpg"
+            src="https://drive.google.com/file/d/1bb9W1RaInagXdPKz-hfhuAmmw4qkDNxD/view?usp=sharing"
             alt="membership"
             ref={(el) => {
               cor = el;

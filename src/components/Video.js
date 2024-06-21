@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import client1 from '../assets/images/client-1.jpg'
+import client2 from '../assets/images/client-2.jpg'
+import client3 from '../assets/images/client-3.jpg'
+import client4 from '../assets/images/client-4.jpg'
+import client5 from '../assets/images/client-5.jpg'
 
 function CarouselComponent() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -13,12 +18,12 @@ function CarouselComponent() {
   }, [activeIndex]);
 
   const handlePrev = () => {
-    const prevIndex = activeIndex === 0 ? 2 : activeIndex - 1;
+    const prevIndex = activeIndex === 0 ? 4 : activeIndex - 1;
     setActiveIndex(prevIndex);
   };
 
   const handleNext = () => {
-    const nextIndex = activeIndex === 2 ? 0 : activeIndex + 1;
+    const nextIndex = activeIndex === 4 ? 0 : activeIndex + 1;
     setActiveIndex(nextIndex);
   };
 
@@ -39,27 +44,43 @@ function CarouselComponent() {
                 <li onClick={() => handleSlideTo(0)} className={activeIndex === 0 ? "active" : ""}></li>
                 <li onClick={() => handleSlideTo(1)} className={activeIndex === 1 ? "active" : ""}></li>
                 <li onClick={() => handleSlideTo(2)} className={activeIndex === 2 ? "active" : ""}></li>
+                <li onClick={() => handleSlideTo(2)} className={activeIndex === 3 ? "active" : ""}></li>
+                <li onClick={() => handleSlideTo(2)} className={activeIndex === 4 ? "active" : ""}></li>
               </ol>
               <div className="carousel-inner">
                 <div className={`carousel-item ${activeIndex === 0 ? "active" : ""}`}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/scoot-production-a901c.appspot.com/o/exly%2Fe%2Fpng%3Bbasw4N9WWGN?alt=media&token=6ff9ae4d-c1c2-4409-a826-228e9991ba0d" className="d-block w-100" alt="..."></img>
+                  <img src={client1} className="d-block w-100 h-500" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Clien ABC</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
                 </div>
                 <div className={`carousel-item ${activeIndex === 1 ? "active" : ""}`}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/scoot-production-a901c.appspot.com/o/exly%2Fe%2Fpng%3Bbaso9mG4KSB?alt=media&token=f560cba8-836e-49bb-84ee-efb19de38313" className="d-block w-100" alt="..."></img>
+                  <img src={client2} className="d-block w-100 h-500" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Client XYZ</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
                 <div className={`carousel-item ${activeIndex === 2 ? "active" : ""}`}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/scoot-production-a901c.appspot.com/o/exly%2Fe%2Fpng%3BbasRtM1yoEH?alt=media&token=c7899b3f-a133-4dc8-8ef6-d97a900ef427" className="d-block w-100" alt="..."></img>
+                  <img src={client3} className="d-block w-100 h-500" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Client MNO</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+                <div className={`carousel-item ${activeIndex === 3 ? "active" : ""}`}>
+                  <img src={client4} className="d-block w-100 h-500" alt="..."></img>
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5>Clien ABC</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </div>
+                <div className={`carousel-item ${activeIndex === 4 ? "active" : ""}`}>
+                  <img src={client5} className="d-block w-100 h-500" alt="..."></img>
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5>Clien ABC</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
                 </div>
               </div>

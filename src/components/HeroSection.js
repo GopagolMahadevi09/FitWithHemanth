@@ -22,7 +22,7 @@ useEffect(() => {
       <div className="hero--header" ref={el=> {text=el}}>
     
         <h1>Build Your Best Body</h1>
-        <h3>Let's Transform Your Future</h3>
+        <h3>Let's Transform Your Future with FitnessBeast</h3>
 
           <div className= "hero-btns">
           <Link to='/'>

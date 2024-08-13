@@ -3,6 +3,7 @@
   "homepage": "https://GopagolMahadevi09.github.io/FitWithHemanth",
   "version": "1.3.0",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "bootstrap": "^5.3.3",
     "gsap": "^3.7.1",
     "jquery": "^3.7.1",

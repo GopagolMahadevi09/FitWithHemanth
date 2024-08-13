@@ -175,3 +175,9 @@ li {
       margin-top: 1rem;
     }
 }
+
+.btn-mobile .btn--primary
+{
+  color: white;
+  background-color: #880602;
+}

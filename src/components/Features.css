@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3rem;
+    margin: 4rem 6rem;
     /* height: 100%; */
 }
 .heading{
@@ -14,7 +14,7 @@
   margin: auto;
 }
 .heading h2{
-  color:#028851;
+  color:#880602;
   font-family: "Oswald",sans-serif;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -38,7 +38,7 @@
 }
 
 .feature--item .fa-check-circle{
-  color:#028851;
+  color:#880602;
   margin-right: 0.5rem;
 }
 .image{
@@ -47,7 +47,7 @@
 .features--image
 {
   height: 550px;
-  width: 450px;
+  /* width: 450px; */
 }
 
 @media screen and (max-width:768px){

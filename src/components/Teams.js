@@ -2,7 +2,7 @@ import React, {useRef,useEffect} from "react";
 import { gsap} from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import'./Teams.css'
-import hemanthImage from '../assets/images/hemanth-profile.jpeg'
+import hemanthImage from '../assets/images/h-biceps.JPEG'
 
 
 
@@ -36,30 +36,41 @@ useEffect(() => {
 
 
   return (
-    <div className="team">
-     <div className="team--wrapper">
-     <div className="team--text">
-         <h2 >Private Coaching</h2>
+  <div className="team">
+    <div className="team--wrapper">
+      <div className="team--text">
+         <h2 >FitnessBeast</h2>
           <h1>Meet Our Trainer </h1>
-    </div>
-    <div className="team--card" ref={el=> {img1=el}}>
-      <p>Hemanth</p>
-          <img src={hemanthImage} alt="Trainer Hemanth" className="team--image"/>
-        </div>
+          <div className="trainer-content">
+          <div className="features--services">
+              <p className="feature--item"> <i className="fas fa-check-circle"></i>International certified trainer accredited by ISSA,ACE.</p>
+              <p className="feature--item"> <i className="fas fa-check-circle"></i> Leads a team of 3 personal trainers.</p>
+              <p className="feature--item"> <i className="fas fa-check-circle"></i>7+ years of experience in the fitness industry nd personal trainer </p>
+              <p className="feature--item"> <i className="fas fa-check-circle"></i>Helped 200+ clients to achieve their fitness goals. Online/offline</p>
+              <p className="feature--item"> <i className="fas fa-check-circle"></i>Helped 200+ clients to achieve their fitness goals. Online/offline</p>
+              <p className="feature--item"> <i className="fas fa-check-circle"></i>Followed by 5k+ on Instagram</p>
+            </div>
+
+          </div>
       </div>
-      <div className="fet--contain-teams">
-        <div className="title">
-          <h2>Why FitCoach?</h2>
-          <div className="underline"></div>
-          <div className="">
-            <p>
+      <div className="team--card" ref={el=> {img1=el}}>
+        <img src={hemanthImage} alt="Trainer Hemanth" className="team--image"/>
+        <p>Hemanth</p>
+      </div>
+    </div>
+    <div className="fet--contain-teams">
+      <div className="title">
+        <h2>Why FitnessBeast?</h2>
+        <div className="underline"></div>
+        <div className="">
+          <p>
               Turn your life around with a membership that fits your life and
               needs. Whether you’re a fresh beginner or a committed expert,
               FitCoach memberships are for those who insist on the best.
-            </p>
-          </div>
+          </p>
         </div>
       </div>
     </div>
+  </div>
     )
     };

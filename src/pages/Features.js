@@ -43,12 +43,14 @@ useEffect(() => {
 
             </div>
             <div className="features--services">
-              <p className="feature--item"> <i className="fas fa-check-circle"></i>Group Fitness Classes</p>
-              <p className="feature--item"> <i className="fas fa-check-circle"></i>1-ON-1 Personal Training Session</p>
-              <p className="feature--item"> <i className="fas fa-check-circle"></i>2-ON-1 Buddy training Session</p>
-              <p className="feature--item"> <i className="fas fa-check-circle"></i>Bulking And Cutting for both Male and Female</p>
-              <p className="feature--item"> <i className="fas fa-check-circle"></i>Customised Diet</p>
-              <p className="feature--item"> <i className="fas fa-check-circle"></i>24/7 Support</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>Customised Diet</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>Customised Training</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>24/7 Support</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>Weekly Check-Ins</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>Supplement Protocol</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>For Both Male/Female</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>Bulking Or Cutting</p>
+            <p className="feature--item"> <i className="fas fa-check-circle"></i>Guaranteed Results</p>  
             </div>
           </div>
 

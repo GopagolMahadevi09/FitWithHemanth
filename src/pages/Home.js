@@ -12,10 +12,11 @@ export default function Home() {
 
   return (
     <>
-      {/* <HeroSection/> */}
+      <HeroSection/>
       <Features/>
       <Membership/>
       <Teams/>
+      <Video/>
       {/* <Video url={'https://www.youtube.com/watch?v=1jL99Btp00o'}/> */}
       <Reviews/>
       

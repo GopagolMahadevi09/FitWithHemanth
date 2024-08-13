@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import client1 from '../assets/images/client-1.jpg'
-import client2 from '../assets/images/client-2.jpg'
-import client3 from '../assets/images/client-3.jpg'
-import client4 from '../assets/images/client-4.jpg'
-import client5 from '../assets/images/client-5.jpg'
+import client1 from '../assets/images/IMG_3638.jpeg'
+import client2 from '../assets/images/h-profile.jpeg'
+import client3 from '../assets/images/hemanth-1.jpeg'
+import client4 from '../assets/images/hemanth.jpg'
+import client5 from '../assets/images/hemanth.jpg'
+import '../components/Video.css'
 
 function CarouselComponent() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -49,47 +50,59 @@ function CarouselComponent() {
               </ol>
               <div className="carousel-inner">
                 <div className={`carousel-item ${activeIndex === 0 ? "active" : ""}`}>
-                  <img src={client1} className="d-block w-100 h-500" alt="..."></img>
+                  <div className='d-flex justify-content-between'>
+                  <img src={client1} className="d-block w-500 h-400" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Clien ABC</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
+                  </div>
                 </div>
                 <div className={`carousel-item ${activeIndex === 1 ? "active" : ""}`}>
-                  <img src={client2} className="d-block w-100 h-500" alt="..."></img>
+                <div className='d-flex justify-content-between'>
+                  <img src={client2} className="d-block w-500 h-400" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Client XYZ</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
+                </div>
                 <div className={`carousel-item ${activeIndex === 2 ? "active" : ""}`}>
-                  <img src={client3} className="d-block w-100 h-500" alt="..."></img>
+                <div className='d-flex justify-content-between'>
+                  <img src={client3} className="d-block w-500 h-400" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Client MNO</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                   </div>
                 </div>
+                </div>
                 <div className={`carousel-item ${activeIndex === 3 ? "active" : ""}`}>
-                  <img src={client4} className="d-block w-100 h-500" alt="..."></img>
+                <div className='d-flex justify-content-between'>
+                  <img src={client4} className="d-block w-500 h-400" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Clien ABC</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
                 </div>
+                </div>
                 <div className={`carousel-item ${activeIndex === 4 ? "active" : ""}`}>
-                  <img src={client5} className="d-block w-100 h-500" alt="..."></img>
+                <div className='d-flex justify-content-between'>
+                  <img src={client5} className="d-block w-500 h-400" alt="..."></img>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Clien ABC</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
+                </div>
                 </div>
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" onClick={handlePrev}>
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span> */}
+                <i class="fas fa-chevron-left"></i>
                 <span className="visually-hidden">Previous</span>
               </button>
               <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" onClick={handleNext}>
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                {/* <span className="carousel-control-next-icon" aria-hidden="true"></span> */}
+                <i class="fas fa-chevron-right"></i>
                 <span className="visually-hidden">Next</span>
               </button>
             </div>

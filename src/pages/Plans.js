@@ -109,7 +109,7 @@ export default function Plans() {
       {/*<h1 className="hi">plans</h1>*/}
       <div className="fet--contain">
         <div className="title">
-          <h2>Why FitCoach?</h2>
+          <h2>Why FitnessBeast?</h2>
           <div className="underline"></div>
           <div className="">
             <p>
